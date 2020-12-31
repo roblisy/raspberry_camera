@@ -1,0 +1,7 @@
+# don't save our creds to github!
+config.yml
+
+# VS code / R Studio
+.DS_Store
+.idea
+
