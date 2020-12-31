@@ -1,0 +1,23 @@
+---
+aws_access_key: <your_key_here>
+aws_secret_access_key: <your_key_here>
+s3_bucket: <your_bucket_here>
+
+# how many minutes before/after sunset should we start taking pictures?
+mins_before_sunset: 35
+mins_after_sunset: 20
+
+# Timezone information for Astral package...
+astral_location:
+  tz: "America/Los_Angeles"
+  name: "Seattle"
+  region: "USA"
+  latitude: 47.6304
+  longitude: -122.3631
+
+# Resolution of the pictures to take.
+camera_res_x: 2592
+camera_res_y: 1944
+
+# Folder location for local image storage.
+local_img_folder: "/home/pi/raspberry_camera/img/"
